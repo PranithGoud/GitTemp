@@ -20,7 +20,7 @@ public class ApplicationUserController {
 	ApplicationUserService appService;
 	
 	
-	@PostMapping("/register")
+	@PostMapping("/register1")
 	 public String register(@RequestBody ApplicationUser user) {
 		return appService.register(user);	
 	}
