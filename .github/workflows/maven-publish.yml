@@ -3,10 +3,7 @@
 
 name: Maven Package
 
-on:
-  release:
-    types: [push]
-
+on: workflow_dispatch
 jobs:
   build:
 
